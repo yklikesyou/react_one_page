@@ -136,8 +136,6 @@ class App extends Component {
                 while (i < _contents.length) {
                   if (_contents[i].id === this.state.selected_content_id) {
                     _contents.splice(i, 1);
-                  } //else if (_contents[i].id > this.state.selected_content_id) {
-                    //_contents[i].id -= 1;
                   }
                   i += 1;
                 }
